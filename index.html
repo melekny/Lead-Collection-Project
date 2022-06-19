@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="overlay">
+<div class="modal">
+<div class="img">
+  <img src="https://www.europarl.europa.eu/resources/library/images/20160609PHT31661/20160609PHT31661_original.jpg"> 
+  </img>
+  </div>
+<div class="form">
+  <div class="form-data">
+    <div class="form-header">
+      <button onclick="closeModal()" class="close-button">x</button>
+    </div>
+    <div class="form-body">
+      <div class="form-title">
+        Welcome to The Store!
+      </div>
+      <div class="form-title-short">
+        Don't miss the discounts and opportunities! Register now and get the discount code!
+      </div>
+      <div class="form-group">
+      <input id="email" placeholder="Email" />
+      </div>
+      <div class="form-group">
+      <input id="phone" placeholder="Phone Number" />
+      </div>
+      <button onclick="sendData()">BE FIRST</button>
+      <div class="form-group-row">
+      <input class="checkbox" type="checkbox" checked="checked">
+        <p><a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" title="Learn more about GDPR" target="_blank">By submitting this form, you are giving consent for your &nbsp e-mail to be used and disclosed. *</a></p>
+      </div>
+      </label>
+    </div>
+  </div>
+  <div class="result-data d-none">
+    <div class="result-header">  
+      <button onclick="closeModal()" class="close-button">x</button></div>
+    <div class="result-title">Amazing!</div>
+    <div class="result-body">
+      <div class="result-text">Here is your discount code you can use in your next order. This coupon code will be valid until 01.01.2020.</div>
+      <div id="code" class="result-code">test</div>
+       <button onclick="copy('#code')" class="result-button">Copy</button>
+    </div>
+    
+  </div>
+  </div>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
