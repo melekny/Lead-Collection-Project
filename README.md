@@ -1,5 +1,5 @@
 ﻿# Lead-Collection-Project
- Lead Collection, kullanıcıların kendi rızasıyla e-mail ya da telefon bilgilerinin toplandığı bir
+ - Lead Collection, kullanıcıların kendi rızasıyla e-mail ya da telefon bilgilerinin toplandığı bir
 kampanyadır.
 ---
 
